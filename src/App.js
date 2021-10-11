@@ -1,10 +1,11 @@
 import './App.css';
+import WelcomePage from './components/WelcomePage';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-purple-600	text-5xl">Testing tailwind css</h1>
-    </div>
+    <>
+      <WelcomePage />
+    </>
   );
 }
 
